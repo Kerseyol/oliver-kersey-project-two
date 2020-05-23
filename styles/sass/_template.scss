@@ -1,0 +1,156 @@
+$brightBlue: #08FDED;
+$backBlue: #03697C;
+$boxBlue: #474BB5;
+$textWhite: #F3FAFF;
+$footerBlue: #044779;
+
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+
+$headingFont:'Walter Turncoat', cursive;
+$bodyFont: 'Roboto', sans-serif;
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+body {
+    background-color: $backBlue;
+}
+
+h1 {
+    font-family: $headingFont;
+    font-size: 145.2px;
+    color: $textWhite;
+}
+
+h2 {
+    font-family: $headingFont;
+    font-size: 121.5px;
+    line-height: 125.6px;
+    color: $textWhite;
+}
+
+h3 {
+    font-family: $headingFont;
+    font-size: 45px;
+    line-height: 99.8px;
+    color: $textWhite;
+}
+
+h4 {
+    font-family: $headingFont;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: 1.3px;
+    color: $textWhite;
+}
+
+button {
+    font-family: $headingFont;
+    font-size: 25.4px;
+    line-height: 41.6px;
+    text-align: center;
+    background: $brightBlue;
+    color: $boxBlue;
+}
+
+nav .menuline {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav a {
+
+    font-family: $bodyFont;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    color: $textWhite;
+}
+
+body p {
+    font-family: $bodyFont;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: $textWhite;
+}
+
+.fa-home, .fa-users, 
+.fa-file, .fa-phone {
+    padding-top: 7px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: $boxBlue;
+    background: $brightBlue;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+.fa-home:hover, .fa-home:focus,
+.fa-users:hover, .fa-users:focus,
+.fa-file:hover, .fa-file:focus,
+.fa-phone:hover, .fa-phone:focus {
+    color: $brightBlue;
+    background: $boxBlue;
+}
+
+
+.socialApps a {
+    color: $textWhite;
+}
+
+
+//This effect is from Github's CSS Hover Master guide
+//Fun Place needs fun transitiony ani-motion!
+.socialApps a:hover,
+.socialApps a:focus {
+    color: $brightBlue;
+    display: inline-block;
+    vertical-align: top;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.socialApps a:hover, .socialApps a:focus, .socialApps a:active {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+footer {
+    background: $footerBlue;
+    color: $textWhite;
+    text-align: center;
+}
+
+.mainContent {
+    position: relative;
+    min-height: 100vh;
+}
+
+.contentWrap {
+    padding-bottom: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+}

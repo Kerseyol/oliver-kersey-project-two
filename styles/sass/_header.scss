@@ -1,0 +1,52 @@
+$brightBlue: #08FDED;
+$backBlue: #03697C;
+$boxBlue: #474BB5;
+$textWhite: #F3FAFF;
+$footerBlue: #044779;
+
+body {
+    margin-top: -15px;
+}
+
+nav a {
+    margin-right: 50px;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    text-align: start;
+}
+
+//Thanks to Github's Hover Master CSS list for this hover effect
+//I find the wobbling to fit the vibe of FUN PLACE
+
+nav a:hover, nav a:focus {
+    -webkit-transform: scale(1.1) rotate(4deg);
+    transform: scale(1.1) rotate(4deg);
+    color: $brightBlue;
+  }
+
+
+.indexHeader {
+    background-image: url(home-header.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 836px;
+}
+
+.contactHeader {
+    background-image: url(contact-header.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 690px;
+}
+
+.blogHeader {
+    background-image: url(blog-header.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 693px;
+}

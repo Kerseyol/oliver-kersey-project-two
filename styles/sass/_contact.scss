@@ -1,0 +1,165 @@
+$brightBlue: #08FDED;
+
+
+.socialApps {
+    padding-top: 10%;
+}
+
+.socialApps a {
+    margin-right: 15px;
+}
+
+.contactLeft a {
+    text-decoration: none;
+}
+
+.contactLeft > a:nth-child(2) {
+    display: inline-block;
+    // height: 0;
+}
+
+.email p {
+    display: inline-block;
+}
+
+.email p:hover {
+    color: #08FDED;
+}
+
+.contactBottom p {
+    line-height: 0.3;
+}
+
+.contactLeft {
+    width: 40%;
+    margin-top: -5%;
+}
+
+.contactForm {
+    display: flex;
+    width: 60%;
+}
+
+.flexitup {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.submit a {
+    text-transform: uppercase;
+}
+
+.submit {
+    text-decoration: none;
+    color: $boxBlue;
+}
+
+.formFlex {
+    list-style: none;
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-bottom: 4%;
+    padding-top: 6%;
+}
+
+.formFlex button {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.formFlex button:hover,
+.formFlex button:focus {
+    color: $brightBlue;
+    background: $boxBlue;
+}
+
+.formFlex a {
+    display: block;
+}
+
+.formFlex a:hover {
+    color: $brightBlue;
+    border: 1px solid $brightBlue;
+}
+
+.contactRight > button:nth-child(7) {
+    border: 0;
+    }
+
+.formFlex > li:nth-child(4) > button:nth-child(1) {
+    border: 0;
+}
+       
+.contactForm fieldset {
+    padding: 0;
+}
+
+.contactRight {
+    width: 100%;
+    background-color: $boxBlue;
+    border: 0;
+    margin-top: -27%;
+    }
+
+#name {
+    float: left;
+    width: 46%;
+    height: 45px;
+    background: $boxBlue;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px solid $textWhite;
+    color: $textWhite;
+    padding-left: 20px;
+}   
+
+#email {
+    width: 46%;
+    height: 45px;
+    background: $boxBlue;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: solid 2px $textWhite;
+    color: $textWhite;
+    margin-left: 8%;
+    padding-left: 20px;   
+}
+
+#message {
+    width: 100%;
+    background: $boxBlue;
+    font-family: $bodyFont;
+    line-height: 28px;
+    border: 2px solid $textWhite;
+    color: $textWhite;
+    padding-left: 20px;
+    padding-left: 20px;
+
+}
+
+.formFlex > li:nth-child(2) {
+    padding-bottom: 40px;
+   }
+   
+
+//used this from the lesson on forms!
+.hideMe:not(:focus):not(:active) {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+
+// .contactLeft {
+//     display: flex;
+// }

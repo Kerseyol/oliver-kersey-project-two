@@ -1,0 +1,592 @@
+@import url("https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap");
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+sup {
+  top: -.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: .35em .75em .625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+body {
+  background-color: #03697C;
+}
+
+h1 {
+  font-family: "Walter Turncoat", cursive;
+  font-size: 145.2px;
+  color: #F3FAFF;
+}
+
+h2 {
+  font-family: "Walter Turncoat", cursive;
+  font-size: 121.5px;
+  line-height: 125.6px;
+  color: #F3FAFF;
+}
+
+h3 {
+  font-family: "Walter Turncoat", cursive;
+  font-size: 45px;
+  line-height: 99.8px;
+  color: #F3FAFF;
+}
+
+h4 {
+  font-family: "Walter Turncoat", cursive;
+  font-size: 40px;
+  line-height: 58px;
+  letter-spacing: 1.3px;
+  color: #F3FAFF;
+}
+
+button {
+  font-family: "Walter Turncoat", cursive;
+  font-size: 25.4px;
+  line-height: 41.6px;
+  text-align: center;
+  background: #08FDED;
+  color: #474BB5;
+}
+
+nav .menuline {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 1px;
+  color: #F3FAFF;
+}
+
+body p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #F3FAFF;
+}
+
+.fa-home, .fa-users,
+.fa-file, .fa-phone {
+  padding-top: 7px;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #474BB5;
+  background: #08FDED;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+.fa-home:hover, .fa-home:focus,
+.fa-users:hover, .fa-users:focus,
+.fa-file:hover, .fa-file:focus,
+.fa-phone:hover, .fa-phone:focus {
+  color: #08FDED;
+  background: #474BB5;
+}
+
+.socialApps a {
+  color: #F3FAFF;
+}
+
+.socialApps a:hover,
+.socialApps a:focus {
+  color: #08FDED;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.socialApps a:hover, .socialApps a:focus, .socialApps a:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+footer {
+  background: #044779;
+  color: #F3FAFF;
+  text-align: center;
+}
+
+.mainContent {
+  position: relative;
+  min-height: 100vh;
+}
+
+.contentWrap {
+  padding-bottom: 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+}
+
+body {
+  margin-top: -15px;
+}
+
+nav a {
+  margin-right: 50px;
+  padding-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-decoration: none;
+  text-align: start;
+}
+
+nav a:hover, nav a:focus {
+  -webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
+  color: #08FDED;
+}
+
+.indexHeader {
+  background-image: url(home-header.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 836px;
+}
+
+.contactHeader {
+  background-image: url(contact-header.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 690px;
+}
+
+.blogHeader {
+  background-image: url(blog-header.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 693px;
+}
+
+.socialApps {
+  padding-top: 10%;
+}
+
+.socialApps a {
+  margin-right: 15px;
+}
+
+.contactLeft a {
+  text-decoration: none;
+}
+
+.contactLeft > a:nth-child(2) {
+  display: inline-block;
+}
+
+.email p {
+  display: inline-block;
+}
+
+.email p:hover {
+  color: #08FDED;
+}
+
+.contactBottom p {
+  line-height: 0.3;
+}
+
+.contactLeft {
+  width: 40%;
+  margin-top: -5%;
+}
+
+.contactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+}
+
+.flexitup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.submit a {
+  text-transform: uppercase;
+}
+
+.submit {
+  text-decoration: none;
+  color: #474BB5;
+}
+
+.formFlex {
+  list-style: none;
+  padding-right: 7%;
+  padding-left: 7%;
+  padding-bottom: 4%;
+  padding-top: 6%;
+}
+
+.formFlex button {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.formFlex button:hover,
+.formFlex button:focus {
+  color: #08FDED;
+  background: #474BB5;
+}
+
+.formFlex a {
+  display: block;
+}
+
+.formFlex a:hover {
+  color: #08FDED;
+  border: 1px solid #08FDED;
+}
+
+.contactRight > button:nth-child(7) {
+  border: 0;
+}
+
+.formFlex > li:nth-child(4) > button:nth-child(1) {
+  border: 0;
+}
+
+.contactForm fieldset {
+  padding: 0;
+}
+
+.contactRight {
+  width: 100%;
+  background-color: #474BB5;
+  border: 0;
+  margin-top: -27%;
+}
+
+#name {
+  float: left;
+  width: 46%;
+  height: 45px;
+  background: #474BB5;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 2px solid #F3FAFF;
+  color: #F3FAFF;
+  padding-left: 20px;
+}
+
+#email {
+  width: 46%;
+  height: 45px;
+  background: #474BB5;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: solid 2px #F3FAFF;
+  color: #F3FAFF;
+  margin-left: 8%;
+  padding-left: 20px;
+}
+
+#message {
+  width: 100%;
+  background: #474BB5;
+  font-family: "Roboto", sans-serif;
+  line-height: 28px;
+  border: 2px solid #F3FAFF;
+  color: #F3FAFF;
+  padding-left: 20px;
+  padding-left: 20px;
+}
+
+.formFlex > li:nth-child(2) {
+  padding-bottom: 40px;
+}
+
+.hideMe:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
