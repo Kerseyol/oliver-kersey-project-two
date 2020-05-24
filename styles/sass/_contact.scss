@@ -2,7 +2,7 @@ $brightBlue: #08FDED;
 
 
 .socialApps {
-    padding-top: 10%;
+    padding-top: 25%;
 }
 
 .socialApps a {
@@ -24,6 +24,10 @@ $brightBlue: #08FDED;
 
 .email p:hover {
     color: #08FDED;
+}
+
+.contactBottom {
+    padding-bottom: 80px;
 }
 
 .contactBottom p {
@@ -72,6 +76,7 @@ $brightBlue: #08FDED;
 .formFlex button:focus {
     color: $brightBlue;
     background: $boxBlue;
+    margin-top: 28px;
 }
 
 .formFlex a {
@@ -95,7 +100,23 @@ $brightBlue: #08FDED;
     padding: 0;
 }
 
+.contactForm {
+    position: relative;
+}
+
+.contactFormBack {
+    position: absolute;
+    left: 15px;
+    bottom: 22px;
+    height: 550px;
+    width: 100%;
+    background: $brightBlue;
+}
+
 .contactRight {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
     width: 100%;
     background-color: $boxBlue;
     border: 0;
@@ -137,7 +158,6 @@ $brightBlue: #08FDED;
     color: $textWhite;
     padding-left: 20px;
     padding-left: 20px;
-
 }
 
 .formFlex > li:nth-child(2) {
@@ -159,7 +179,3 @@ $brightBlue: #08FDED;
         overflow: hidden;
     }
 
-
-// .contactLeft {
-//     display: flex;
-// }

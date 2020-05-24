@@ -1,0 +1,165 @@
+.mainContent {
+    overflow: hidden;
+}
+
+.mainParent {
+    display: flex;
+    flex-direction: row;
+}
+
+.blogLeft {
+    width: 30%;
+    position: relative;
+}
+
+.blogRight  {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.blogRightImageBack {
+    background-color: $brightBlue;
+    position: absolute;
+    top: -150px;
+    right: 71px;
+    height: 29%;
+    width: 94%;
+}
+
+.blogRightImageBack img {
+    position: absolute;
+    right: -71px;
+    top: -31px;
+    width: 104%;
+    min-width: 60%;
+    height: auto;
+}
+
+.blogLeft img {
+    position: absolute;
+    z-index: 1;
+    padding-top: 12%;
+    max-width: 100%;
+    min-width: 60%;
+    height: auto;
+}
+
+.leftTextBox {
+    background: $boxBlue;
+    position: absolute;
+    top: 8%;
+    z-index: 0;
+    width: 67%;
+    padding-left: 20px;
+    padding-top: 50%;
+    margin-left: 17%;
+    padding-bottom: 10px;
+}
+
+.leftTextBoxTop p {
+    line-height: 10px;
+}
+
+.leftTextBoxBottom ul {
+    list-style: none;
+    font-family: $bodyFont;
+    color: $textWhite;
+    line-height: 25px;
+}
+
+//w3schools.com recommended this fix for bullet coloration
+
+.leftTextBoxBottom ul li::before {
+    content: "\2022";
+    color: $brightBlue;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.blogText {
+    border-bottom: 5px solid $brightBlue;
+    border-left: 5px solid $brightBlue;
+    padding-top: 48%;
+    padding-left: 8%;
+    margin-left: 9px;
+}
+
+.mainText {
+    padding-bottom: 50px;
+    padding-right: 10%;
+}
+
+.commentBox1 img,
+.commentBox2 img {
+    float: left;
+}
+
+.text {
+    width: 70%;
+    padding-left: 10%;
+}
+
+.commentBox1 {
+    padding-bottom: 3%;
+}
+
+.commentsBlog {
+    padding-left: 9%;
+}
+
+.topline {
+    font-style: italic;
+}
+
+.contactFormBlog {
+    padding-top: 0;
+}
+
+#messageBlog {
+    background: $backBlue;
+}
+
+#nameBlog {
+    background: $backBlue;
+    float: left;
+    width: 46%;
+    height: 45px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px solid $brightBlue;
+    color: $textWhite;
+    padding-left: 20px;
+}
+
+#emailBlog {
+    background: $backBlue;
+    width: 46%;
+    height: 45px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: solid 2px $brightBlue;
+    color: $textWhite;
+    margin-left: 8%;
+    padding-left: 20px;  
+}
+
+#messageBlog {
+    width: 100%;
+    background: $backBlue;
+    font-family: $bodyFont;
+    line-height: 28px;
+    border: 2px solid $brightBlue;
+    color: $textWhite;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+fieldset {
+    border: 0;
+}

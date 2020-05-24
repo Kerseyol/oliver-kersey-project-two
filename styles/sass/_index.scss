@@ -1,0 +1,55 @@
+.mainHeaderText {
+    padding-top: 15%;
+}
+
+.indexHeader img {
+    float: right;
+    margin-top: 10%;
+}
+
+.indexLinks {
+    display: flex;
+    flex-direction: row;
+}
+
+.indexLinksLeft,
+.indexLinksRight {
+    width: 46%;
+}
+
+.indexLinksLeft h3,
+.indexLinksRight h3 {
+    margin-left: 70px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    padding-bottom: 25px;
+}
+
+.indexLinksLeft p,
+.indexLinksRight p {
+    padding-left: 70px;
+    padding-bottom: 45px;
+    margin-top: -25px;
+    width: 95%;
+} 
+
+.fa-file {
+    padding-top: 10px;
+} 
+
+.layerTwo {
+    background-color: $boxBlue;
+    display: flex;
+    flex-direction: column;
+}
+
+.layerTwoImageBack1 {
+    background-color: $brightBlue;
+    position: relative;
+    width: 35%;
+}
+
+.textAlign2 {
+    width: 50%;
+    text-align: right;
+}
