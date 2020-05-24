@@ -370,10 +370,6 @@ footer {
   min-height: 100vh;
 }
 
-.contentWrap {
-  padding-bottom: 20px;
-}
-
 footer {
   width: 100%;
   height: 27px;
@@ -446,6 +442,16 @@ nav a:hover, nav a:focus {
           flex-direction: row;
 }
 
+.indexLinks a {
+  text-decoration: none;
+  color: #F3FAFF;
+}
+
+.indexLinks a:hover,
+.indexLinks a:focus {
+  color: #08FDED;
+}
+
 .indexLinksLeft,
 .indexLinksRight {
   width: 46%;
@@ -482,15 +488,190 @@ nav a:hover, nav a:focus {
           flex-direction: column;
 }
 
+.layerTwoTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .layerTwoImageBack1 {
   background-color: #08FDED;
   position: relative;
-  width: 35%;
+  width: 43%;
+  margin-left: 1%;
+  height: 510px;
+}
+
+.layerTwoImageBack1 img {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.layerTwoImageBack2 {
+  background-color: #08FDED;
+  position: relative;
+  width: 45%;
+  margin-right: 1%;
+  height: 510px;
+  top: 30px;
+}
+
+.layerTwoImageBack2 img {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.textAlign1 {
+  width: 45%;
 }
 
 .textAlign2 {
-  width: 50%;
+  width: 43%;
   text-align: right;
+}
+
+.layerTwoBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.textAlign1 button,
+.textAlign2 button,
+.layerThree button,
+.events button {
+  border: 2px solid #08FDED;
+  padding: 0;
+  margin: 0;
+}
+
+.textAlign1 a,
+.textAlign2 a,
+.layerThree a,
+.events a {
+  text-decoration: none;
+  display: block;
+}
+
+.textAlign1 a:hover,
+.textAlign1 a:focus,
+.textAlign2 a:hover,
+.textAlign2 a:focus,
+.layerThree a:hover,
+.layerThree a:focus,
+.events a:hover,
+.events a:focus {
+  color: #08FDED;
+  background-color: #474BB5;
+}
+
+.layerThree {
+  background-color: #03697C;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.layerThree h3 {
+  padding-top: 10%;
+}
+
+.layerThree button {
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.layerFour,
+.layerFour img {
+  width: 100%;
+}
+
+.layerFive {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.eventsLeft {
+  width: 29%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  position: relative;
+}
+
+.eventsLeft img {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  height: 100%;
+  width: auto;
+}
+
+.events {
+  width: 60%;
+  padding-left: 5%;
+}
+
+.events p {
+  width: 90%;
+}
+
+.eventsLeftBack {
+  background-color: #08FDED;
+  position: relative;
+  width: 63%;
+  margin-left: 1%;
+  height: 360px;
+}
+
+.layerSix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #474BB5;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.layerSix img {
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .mainContent {
