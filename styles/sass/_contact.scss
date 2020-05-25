@@ -179,3 +179,131 @@ $brightBlue: #08FDED;
         overflow: hidden;
     }
 
+@media (max-width: 1600px) {
+
+    .contactHeader {
+        background-position: top;
+        background-size: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .contactRight {
+        bottom: 30px;
+    }
+
+    .contactFormBack {
+        height: 529px;
+    }
+
+    .contactHeader {
+        background-position: top;
+        background-size: auto;
+    }
+}
+
+@media (max-width: 1000px) {
+
+.flexitup {
+    flex-direction: column-reverse;
+}
+
+.contactForm {
+    margin-top: 50%;
+}
+
+.contactLeft {
+    width: 100%;
+    margin-top: -20%;
+    text-align: center;
+}
+
+.contactLeft a {
+    margin-right: 15%;
+    padding-left: 0;
+}
+
+.contactLeft > a:nth-child(2) {
+    padding-top: 25px;
+}
+
+.contactForm fieldset {
+    width: 100%;
+}
+
+.fa-2x {
+    font-size:3em;
+   }
+  
+
+.contactForm {
+    width: 100%;
+}
+
+.socialApps {
+    padding-left: 10%;
+    margin-left: 0;
+}
+
+.socialApps i {
+    font-size: 3em;
+}
+
+
+.socialApps {
+    padding-left: 15%;
+}
+
+.emailBox {
+    display: flex;
+    justify-content: center;
+}
+
+.emailBox a {
+    margin-right: 0;
+}
+
+}
+
+@media (max-width: 750px) {
+
+.contactHeader h1 {
+    font-size: 100px;
+}
+
+.contactFormBack {
+
+    bottom: -70px;
+}
+
+.contactLeft {
+    margin-top: 2%;
+}
+
+.socialApps a {
+    margin-right: 0;
+    padding-left: 0;
+}
+
+.contactLeft a {
+    margin-right: 12%;
+}
+
+.emailBox a {
+    margin-right: 0;
+}
+
+}
+
+@media (max-width: 440px) {
+
+.socialApps {
+    padding-left: 7%;
+}    
+
+.contactLeft a {
+    margin-right: 6%;
+}
+
+}
