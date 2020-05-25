@@ -50,3 +50,10 @@ nav a:hover, nav a:focus {
     background-attachment: fixed;
     height: 693px;
 }
+
+@media (max-width: 440px) {
+
+    nav a {
+        margin-right: 29px;
+    }
+}

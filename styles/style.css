@@ -423,6 +423,12 @@ nav a:hover, nav a:focus {
   height: 693px;
 }
 
+@media (max-width: 440px) {
+  nav a {
+    margin-right: 29px;
+  }
+}
+
 .mainHeaderText {
   padding-top: 15%;
 }
