@@ -428,8 +428,8 @@ nav a:hover, nav a:focus {
 }
 
 .indexHeader img {
-  float: right;
   margin-top: 10%;
+  float: right;
 }
 
 .indexLinks {
@@ -672,6 +672,324 @@ nav a:hover, nav a:focus {
 .layerSix img {
   padding-left: 1%;
   padding-right: 1%;
+}
+
+@media (max-width: 1670px) {
+  .indexHeader {
+    background-size: auto;
+    background-position: top;
+  }
+  .events {
+    padding-left: 15%;
+  }
+}
+
+@media (max-width: 1550px) {
+  .indexLinks {
+    margin-top: 10%;
+  }
+  .layerTwoImageBack1 {
+    height: 392px;
+  }
+  .layerTwoImageBack2 {
+    height: 425px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .mainHeaderText {
+    padding-top: 0;
+    margin-top: -75%;
+  }
+  .indexHeader img {
+    padding-top: 20%;
+    float: none;
+    padding-left: 20%;
+  }
+  .indexLinks {
+    padding-top: 20%;
+  }
+  .layerTwoImageBack1 {
+    height: 334px;
+  }
+  .layerTwoImageBack2 {
+    height: 364px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .mainHeaderText {
+    margin-top: -85%;
+  }
+  .layerTwoImageBack1 {
+    height: 294px;
+  }
+  .layerTwoImageBack2 {
+    height: height  329px;
+  }
+  .events {
+    padding-left: 24%;
+    width: 70%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .mainHeaderText {
+    margin-top: -95%;
+  }
+  .indexHeader img {
+    padding-left: 12%;
+  }
+  .layerTwoImageBack1 {
+    height: 267px;
+  }
+  .layerTwoImageBack2 {
+    height: 286px;
+  }
+  .layerFive {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .eventsLeft {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .eventsLeftBack {
+    width: 48%;
+    margin-left: 0%;
+    height: 465px;
+  }
+  .eventsLeft img {
+    height: 106%;
+    width: auto;
+  }
+  .events {
+    width: 100%;
+    text-align: center;
+    padding-left: 6%;
+  }
+}
+
+@media (max-width: 900px) {
+  .indexLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .indexLinksLeft,
+  .indexLinksRight {
+    width: 100%;
+  }
+  .layerTwoImageBack1 {
+    height: 228px;
+  }
+  .layerTwoImageBack2 {
+    height: 257px;
+  }
+  .textAlign1 {
+    padding-bottom: 10%;
+  }
+  .textAlign2 {
+    margin-top: -10%;
+  }
+  .eventsLeftBack {
+    margin-top: 10%;
+  }
+  .layerSix {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .layerSix img {
+    height: auto;
+    width: 75%;
+    padding-bottom: 5%;
+  }
+  .mainHeaderText {
+    margin-top: -105%;
+  }
+}
+
+@media (max-width: 800px) {
+  .mainHeaderText {
+    margin-top: -113%;
+  }
+  .layerTwoImageBack1 {
+    height: 425px;
+    width: 87%;
+  }
+  .layerTwoImageBack2 {
+    height: 415px;
+    width: 86%;
+  }
+  .textAlign2 {
+    margin-bottom: 17%;
+    width: 100%;
+    text-align: center;
+  }
+  .layerTwoTop {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .textAlign1 {
+    width: 100%;
+    text-align: center;
+  }
+  .layerTwoBottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .layerTwo {
+    margin-top: 11%;
+  }
+  .layerTwoImageBack1 img {
+    width: 99%;
+  }
+  .layerTwoImageBack2 img {
+    width: 106%;
+  }
+  .eventsLeftBack {
+    width: 61%;
+  }
+  .events {
+    padding-left: 0;
+  }
+  .events p {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+  }
+  .mainHeaderText {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 700px) {
+  .mainHeaderText {
+    margin-top: -126%;
+  }
+  .layerTwoImageBack1 {
+    height: 342px;
+  }
+  .layerTwoImageBack2 {
+    height: 348px;
+  }
+  .eventsLeftBack {
+    width: 75%;
+  }
+  .eventsLeft {
+    width: 93%;
+  }
+}
+
+@media (max-width: 620px) {
+  .mainHeaderText {
+    font-size: 80px;
+    margin-top: -138%;
+  }
+  .layerFour,
+  .layerFour img {
+    width: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .indexHeader img {
+    padding-left: 0%;
+    width: 80%;
+    padding-top: 57%;
+  }
+  .mainHeaderText {
+    margin-top: -109%;
+  }
+  .layerTwo {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .indexLinks {
+    padding-top: 5%;
+  }
+  .layerTwoImageBack1 {
+    height: 249px;
+  }
+  .layerTwoImageBack2 {
+    height: 262px;
+  }
+  .layerThree {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .indexHeader img {
+    padding-top: 75%;
+  }
+  .mainHeaderText {
+    margin-top: -128%;
+  }
+  .eventsLeft img {
+    height: 103%;
+  }
+  .eventsLeftBack {
+    height: 335px;
+    width: 71%;
+  }
+}
+
+@media (max-width: 450px) {
+  .indexHeader img {
+    padding-top: 91%;
+  }
+  .mainHeaderText {
+    margin-top: -133%;
+  }
+  .eventsLeftBack {
+    height: 290px;
+  }
+  .layerTwoImageBack1 {
+    height: 205px;
+  }
+  .layerTwoImageBack2 {
+    height: 216px;
+  }
+}
+
+@media (max-width: 380px) {
+  .mainHeaderText {
+    margin-top: -151%;
+  }
+  .indexHeader img {
+    padding-top: 79%;
+  }
+  .layerTwoImageBack1 {
+    height: 175px;
+  }
+  .layerTwoImageBack2 {
+    height: 175px;
+  }
+  .eventsLeftBack {
+    height: 250px;
+  }
+  .layerThree h3 {
+    font-size: 35px;
+  }
 }
 
 .mainContent {
@@ -1433,6 +1751,18 @@ fieldset {
   }
   .emailBox a {
     margin-right: 0;
+  }
+}
+
+@media (max-width: 540px) {
+  #name {
+    float: none;
+    width: 100%;
+  }
+  #email {
+    float: none;
+    width: 100%;
+    margin-left: 0;
   }
 }
 

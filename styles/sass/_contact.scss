@@ -296,6 +296,20 @@ $brightBlue: #08FDED;
 
 }
 
+@media (max-width: 540px) {
+
+#name {
+    float: none;
+    width: 100%;
+}
+
+#email {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+}
+}
+
 @media (max-width: 440px) {
 
 .socialApps {
